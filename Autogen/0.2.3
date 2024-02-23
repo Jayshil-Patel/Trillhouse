@@ -1,96 +1,29 @@
-Collecting pyautogen
-  Obtaining dependency information for pyautogen from https://files.pythonhosted.org/packages/18/c9/da02c03c669028097e36c32906903452dd5b29869d7553b3ecab105c75a3/pyautogen-0.2.14-py3-none-any.whl.metadata
-  Downloading pyautogen-0.2.14-py3-none-any.whl.metadata (18 kB)
-Collecting diskcache (from pyautogen)
-  Obtaining dependency information for diskcache from https://files.pythonhosted.org/packages/3f/27/4570e78fc0bf5ea0ca45eb1de3818a23787af9b390c0b0a0033a1b8236f9/diskcache-5.6.3-py3-none-any.whl.metadata
-  Using cached diskcache-5.6.3-py3-none-any.whl.metadata (20 kB)
-Collecting docker (from pyautogen)
-  Obtaining dependency information for docker from https://files.pythonhosted.org/packages/18/bd/9706c10bb12e05043ef138dc8d412cfd17f29c8df0fb28ad71c96a98785d/docker-7.0.0-py3-none-any.whl.metadata
-  Using cached docker-7.0.0-py3-none-any.whl.metadata (3.5 kB)
-Collecting flaml (from pyautogen)
-  Obtaining dependency information for flaml from https://files.pythonhosted.org/packages/e6/5e/f26990e3007c891132c7daec69059c916cc521749451cada3aae27e2f611/FLAML-2.1.1-py3-none-any.whl.metadata
-  Using cached FLAML-2.1.1-py3-none-any.whl.metadata (15 kB)
-Collecting openai>=1.3 (from pyautogen)
-  Obtaining dependency information for openai>=1.3 from https://files.pythonhosted.org/packages/26/a1/75474477af2a1dae3a25f80b72bbaf20e8296191ece7fff2f67984206f33/openai-1.12.0-py3-none-any.whl.metadata
-  Downloading openai-1.12.0-py3-none-any.whl.metadata (18 kB)
-Collecting pydantic!=2.6.0,<3,>=1.10 (from pyautogen)
-  Obtaining dependency information for pydantic!=2.6.0,<3,>=1.10 from https://files.pythonhosted.org/packages/db/dc/afecbd9650f486889181c6d1a0d675b580c06253ea7e304588e4c7485bdb/pydantic-2.6.1-py3-none-any.whl.metadata
-  Using cached pydantic-2.6.1-py3-none-any.whl.metadata (83 kB)
-Collecting python-dotenv (from pyautogen)
-  Obtaining dependency information for python-dotenv from https://files.pythonhosted.org/packages/6a/3e/b68c118422ec867fa7ab88444e1274aa40681c606d59ac27de5a5588f082/python_dotenv-1.0.1-py3-none-any.whl.metadata
-  Using cached python_dotenv-1.0.1-py3-none-any.whl.metadata (23 kB)
-Collecting termcolor (from pyautogen)
-  Obtaining dependency information for termcolor from https://files.pythonhosted.org/packages/d9/5f/8c716e47b3a50cbd7c146f45881e11d9414def768b7cd9c5e6650ec2a80a/termcolor-2.4.0-py3-none-any.whl.metadata
-  Using cached termcolor-2.4.0-py3-none-any.whl.metadata (6.1 kB)
-Collecting tiktoken (from pyautogen)
-  Obtaining dependency information for tiktoken from https://files.pythonhosted.org/packages/13/2f/3dd2eff71a6c057639723c9fc7ff4de9ec8a7cb9d444db3c069998b7df66/tiktoken-0.6.0-cp312-cp312-win_amd64.whl.metadata
-  Using cached tiktoken-0.6.0-cp312-cp312-win_amd64.whl.metadata (6.8 kB)
-Collecting anyio<5,>=3.5.0 (from openai>=1.3->pyautogen)
-  Obtaining dependency information for anyio<5,>=3.5.0 from https://files.pythonhosted.org/packages/14/fd/2f20c40b45e4fb4324834aea24bd4afdf1143390242c0b33774da0e2e34f/anyio-4.3.0-py3-none-any.whl.metadata
-  Downloading anyio-4.3.0-py3-none-any.whl.metadata (4.6 kB)
-Collecting distro<2,>=1.7.0 (from openai>=1.3->pyautogen)
-  Obtaining dependency information for distro<2,>=1.7.0 from https://files.pythonhosted.org/packages/12/b3/231ffd4ab1fc9d679809f356cebee130ac7daa00d6d6f3206dd4fd137e9e/distro-1.9.0-py3-none-any.whl.metadata
-  Using cached distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
-Collecting httpx<1,>=0.23.0 (from openai>=1.3->pyautogen)
-  Obtaining dependency information for httpx<1,>=0.23.0 from https://files.pythonhosted.org/packages/39/9b/4937d841aee9c2c8102d9a4eeb800c7dad25386caabb4a1bf5010df81a57/httpx-0.26.0-py3-none-any.whl.metadata
-  Using cached httpx-0.26.0-py3-none-any.whl.metadata (7.6 kB)
-Collecting sniffio (from openai>=1.3->pyautogen)
-  Using cached sniffio-1.3.0-py3-none-any.whl (10 kB)
-Collecting tqdm>4 (from openai>=1.3->pyautogen)
-  Obtaining dependency information for tqdm>4 from https://files.pythonhosted.org/packages/2a/14/e75e52d521442e2fcc9f1df3c5e456aead034203d4797867980de558ab34/tqdm-4.66.2-py3-none-any.whl.metadata
-  Downloading tqdm-4.66.2-py3-none-any.whl.metadata (57 kB)
-     ---------------------------------------- 0.0/57.6 kB ? eta -:--:--     ----------------------------------- ---- 51.2/57.6 kB 2.7 MB/s eta 0:00:01     ---------------------------------------- 57.6/57.6 kB 1.5 MB/s eta 0:00:00
-Collecting typing-extensions<5,>=4.7 (from openai>=1.3->pyautogen)
-  Obtaining dependency information for typing-extensions<5,>=4.7 from https://files.pythonhosted.org/packages/b7/f4/6a90020cd2d93349b442bfcb657d0dc91eee65491600b2cb1d388bc98e6b/typing_extensions-4.9.0-py3-none-any.whl.metadata
-  Using cached typing_extensions-4.9.0-py3-none-any.whl.metadata (3.0 kB)
-Collecting annotated-types>=0.4.0 (from pydantic!=2.6.0,<3,>=1.10->pyautogen)
-  Obtaining dependency information for annotated-types>=0.4.0 from https://files.pythonhosted.org/packages/28/78/d31230046e58c207284c6b2c4e8d96e6d3cb4e52354721b944d3e1ee4aa5/annotated_types-0.6.0-py3-none-any.whl.metadata
-  Using cached annotated_types-0.6.0-py3-none-any.whl.metadata (12 kB)
-Collecting pydantic-core==2.16.2 (from pydantic!=2.6.0,<3,>=1.10->pyautogen)
-  Obtaining dependency information for pydantic-core==2.16.2 from https://files.pythonhosted.org/packages/d3/e7/13e9a66ce49a1e63119fb3c1e1a4d917b1326488cf9f0d8b007d8dc44f2a/pydantic_core-2.16.2-cp312-none-win_amd64.whl.metadata
-  Using cached pydantic_core-2.16.2-cp312-none-win_amd64.whl.metadata (6.6 kB)
+Requirement already satisfied: pyautogen in d:\jaysh\trillhouse\autogengui\lib\site-packages (0.2.14)
+Requirement already satisfied: diskcache in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pyautogen) (5.6.3)
+Requirement already satisfied: docker in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pyautogen) (7.0.0)
+Requirement already satisfied: flaml in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pyautogen) (2.1.1)
+Requirement already satisfied: openai>=1.3 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pyautogen) (1.12.0)
+Requirement already satisfied: pydantic!=2.6.0,<3,>=1.10 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pyautogen) (2.6.1)
+Requirement already satisfied: python-dotenv in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pyautogen) (1.0.1)
+Requirement already satisfied: termcolor in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pyautogen) (2.4.0)
+Requirement already satisfied: tiktoken in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pyautogen) (0.6.0)
+Requirement already satisfied: anyio<5,>=3.5.0 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from openai>=1.3->pyautogen) (4.3.0)
+Requirement already satisfied: distro<2,>=1.7.0 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from openai>=1.3->pyautogen) (1.9.0)
+Requirement already satisfied: httpx<1,>=0.23.0 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from openai>=1.3->pyautogen) (0.26.0)
+Requirement already satisfied: sniffio in d:\jaysh\trillhouse\autogengui\lib\site-packages (from openai>=1.3->pyautogen) (1.3.0)
+Requirement already satisfied: tqdm>4 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from openai>=1.3->pyautogen) (4.66.2)
+Requirement already satisfied: typing-extensions<5,>=4.7 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from openai>=1.3->pyautogen) (4.9.0)
+Requirement already satisfied: annotated-types>=0.4.0 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pydantic!=2.6.0,<3,>=1.10->pyautogen) (0.6.0)
+Requirement already satisfied: pydantic-core==2.16.2 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from pydantic!=2.6.0,<3,>=1.10->pyautogen) (2.16.2)
 Requirement already satisfied: packaging>=14.0 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from docker->pyautogen) (23.2)
 Requirement already satisfied: requests>=2.26.0 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from docker->pyautogen) (2.31.0)
-Requirement already satisfied: urllib3>=1.26.0 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from docker->pyautogen) (2.2.0)
+Requirement already satisfied: urllib3>=1.26.0 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from docker->pyautogen) (1.26.18)
 Requirement already satisfied: pywin32>=304 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from docker->pyautogen) (306)
-Collecting NumPy>=1.17.0rc1 (from flaml->pyautogen)
-  Obtaining dependency information for NumPy>=1.17.0rc1 from https://files.pythonhosted.org/packages/16/2e/86f24451c2d530c88daf997cb8d6ac622c1d40d19f5a031ed68a4b73a374/numpy-1.26.4-cp312-cp312-win_amd64.whl.metadata
-  Using cached numpy-1.26.4-cp312-cp312-win_amd64.whl.metadata (61 kB)
-Collecting regex>=2022.1.18 (from tiktoken->pyautogen)
-  Obtaining dependency information for regex>=2022.1.18 from https://files.pythonhosted.org/packages/1d/af/4bd17254cdda1d8092460ee5561f013c4ca9c33ecf1aab81b44280327cab/regex-2023.12.25-cp312-cp312-win_amd64.whl.metadata
-  Using cached regex-2023.12.25-cp312-cp312-win_amd64.whl.metadata (41 kB)
+Requirement already satisfied: NumPy>=1.17.0rc1 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from flaml->pyautogen) (1.26.4)
+Requirement already satisfied: regex>=2022.1.18 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from tiktoken->pyautogen) (2023.12.25)
 Requirement already satisfied: idna>=2.8 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from anyio<5,>=3.5.0->openai>=1.3->pyautogen) (3.6)
 Requirement already satisfied: certifi in d:\jaysh\trillhouse\autogengui\lib\site-packages (from httpx<1,>=0.23.0->openai>=1.3->pyautogen) (2024.2.2)
-Collecting httpcore==1.* (from httpx<1,>=0.23.0->openai>=1.3->pyautogen)
-  Obtaining dependency information for httpcore==1.* from https://files.pythonhosted.org/packages/11/a6/24139fa27831cf2127fcf578d6d0a852a611f10cefecd800b1c557333d7a/httpcore-1.0.3-py3-none-any.whl.metadata
-  Downloading httpcore-1.0.3-py3-none-any.whl.metadata (20 kB)
-Collecting h11<0.15,>=0.13 (from httpcore==1.*->httpx<1,>=0.23.0->openai>=1.3->pyautogen)
-  Using cached h11-0.14.0-py3-none-any.whl (58 kB)
+Requirement already satisfied: httpcore==1.* in d:\jaysh\trillhouse\autogengui\lib\site-packages (from httpx<1,>=0.23.0->openai>=1.3->pyautogen) (1.0.3)
+Requirement already satisfied: h11<0.15,>=0.13 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from httpcore==1.*->httpx<1,>=0.23.0->openai>=1.3->pyautogen) (0.14.0)
 Requirement already satisfied: charset-normalizer<4,>=2 in d:\jaysh\trillhouse\autogengui\lib\site-packages (from requests>=2.26.0->docker->pyautogen) (3.3.2)
 Requirement already satisfied: colorama in d:\jaysh\trillhouse\autogengui\lib\site-packages (from tqdm>4->openai>=1.3->pyautogen) (0.4.6)
-Downloading pyautogen-0.2.14-py3-none-any.whl (191 kB)
-   ---------------------------------------- 0.0/191.7 kB ? eta -:--:--   -------------------------------------- - 184.3/191.7 kB 3.7 MB/s eta 0:00:01   ---------------------------------------- 191.7/191.7 kB 2.9 MB/s eta 0:00:00
-Downloading openai-1.12.0-py3-none-any.whl (226 kB)
-   ---------------------------------------- 0.0/226.7 kB ? eta -:--:--   ---------------------------- ----------- 163.8/226.7 kB 5.0 MB/s eta 0:00:01   ---------------------------------------- 226.7/226.7 kB 3.4 MB/s eta 0:00:00
-Using cached pydantic-2.6.1-py3-none-any.whl (394 kB)
-Using cached pydantic_core-2.16.2-cp312-none-win_amd64.whl (1.9 MB)
-Using cached diskcache-5.6.3-py3-none-any.whl (45 kB)
-Using cached docker-7.0.0-py3-none-any.whl (147 kB)
-Using cached FLAML-2.1.1-py3-none-any.whl (295 kB)
-Using cached python_dotenv-1.0.1-py3-none-any.whl (19 kB)
-Using cached termcolor-2.4.0-py3-none-any.whl (7.7 kB)
-Using cached tiktoken-0.6.0-cp312-cp312-win_amd64.whl (798 kB)
-Using cached annotated_types-0.6.0-py3-none-any.whl (12 kB)
-Downloading anyio-4.3.0-py3-none-any.whl (85 kB)
-   ---------------------------------------- 0.0/85.6 kB ? eta -:--:--   ---------------------------------------- 85.6/85.6 kB 4.7 MB/s eta 0:00:00
-Using cached distro-1.9.0-py3-none-any.whl (20 kB)
-Using cached httpx-0.26.0-py3-none-any.whl (75 kB)
-Downloading httpcore-1.0.3-py3-none-any.whl (77 kB)
-   ---------------------------------------- 0.0/77.0 kB ? eta -:--:--   ---------------------------------------- 77.0/77.0 kB 4.5 MB/s eta 0:00:00
-Using cached numpy-1.26.4-cp312-cp312-win_amd64.whl (15.5 MB)
-Using cached regex-2023.12.25-cp312-cp312-win_amd64.whl (268 kB)
-Downloading tqdm-4.66.2-py3-none-any.whl (78 kB)
-   ---------------------------------------- 0.0/78.3 kB ? eta -:--:--   ---------------------------------------- 78.3/78.3 kB 4.3 MB/s eta 0:00:00
-Using cached typing_extensions-4.9.0-py3-none-any.whl (32 kB)
-Installing collected packages: typing-extensions, tqdm, termcolor, sniffio, regex, python-dotenv, NumPy, h11, distro, diskcache, annotated-types, tiktoken, pydantic-core, httpcore, flaml, docker, anyio, pydantic, httpx, openai, pyautogen
-Successfully installed NumPy-1.26.4 annotated-types-0.6.0 anyio-4.3.0 diskcache-5.6.3 distro-1.9.0 docker-7.0.0 flaml-2.1.1 h11-0.14.0 httpcore-1.0.3 httpx-0.26.0 openai-1.12.0 pyautogen-0.2.14 pydantic-2.6.1 pydantic-core-2.16.2 python-dotenv-1.0.1 regex-2023.12.25 sniffio-1.3.0 termcolor-2.4.0 tiktoken-0.6.0 tqdm-4.66.2 typing-extensions-4.9.0
